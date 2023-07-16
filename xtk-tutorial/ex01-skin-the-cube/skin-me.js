@@ -9,8 +9,8 @@ window.addEventListener("DOMContentLoaded", () => {
     return cube;
   }
 
-  const renderer = new X.renderer3D();
   const cube = getCubeInstance();
+  const renderer = new X.renderer3D();
   const onRenderFn = () => {
     cube.transform.rotateX(1);
     cube.transform.rotateY(-1);

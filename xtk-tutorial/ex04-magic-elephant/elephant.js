@@ -8,10 +8,11 @@ window.addEventListener("DOMContentLoaded", () => {
     return elephant;
   }
 
-  const renderer = new X.renderer3D();
   const elephant = getMagicElephantInstance();
 
+  const renderer = new X.renderer3D();
   renderer.init();
   renderer.add(elephant);
+  renderer.camera.position = [200, 0, 0];
   renderer.render();
 });

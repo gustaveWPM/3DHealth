@@ -8,8 +8,8 @@ window.addEventListener("DOMContentLoaded", () => {
     return cube;
   }
 
-  const renderer = new X.renderer3D();
   const cube = getCubeInstance();
+  const renderer = new X.renderer3D();
 
   renderer.init();
   renderer.add(cube);

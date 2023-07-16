@@ -53,5 +53,6 @@ window.addEventListener("DOMContentLoaded", () => {
 
   const csgCube = getHollowRoundedCubeInstance(cube, sphere, cylinder1, cylinder2, cylinder3);
   renderer.add(csgCube);
+
   renderer.render();
 });
