@@ -6,5 +6,8 @@
   "editor.wordWrap": "on",
   "editor.codeActionsOnSave": {
     "source.organizeImports": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "bysabi.prettier-vscode-standard"
   }
 }
